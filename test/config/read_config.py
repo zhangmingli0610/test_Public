@@ -3,6 +3,7 @@ import configparser
 import os
 from threading import Lock
 import time
+import re
 
 
 def get_value(section, item):
