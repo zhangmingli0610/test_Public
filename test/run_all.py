@@ -75,7 +75,7 @@ if __name__ == '__main__':
     psw = "123456"  # QQ邮箱授权码
     smtp_server = "smtp.exmail.qq.com"
     port = 465
-    receiver = ["zhangmingli@hatech.com.cn"]  # 单个收件人 list
+    receiver = ["123@123.com.cn"]  # 单个收件人 list
     # receiver = ["yoyo@qq.com", "yoyoxxxx@qq.com"]  # 多个收件人
 
     # send_mail(sender, psw, receiver, smtp_server, reportDir, port)  # 4最后一步发送报告
