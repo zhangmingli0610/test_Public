@@ -71,8 +71,8 @@ if __name__ == '__main__':
     # # 获取最新的测试报告文件 没有使用
     report_file = get_report_file(os.path.join(baseDir, 'report'))  # 3获取最新的测试报告
     # #邮箱配置  邮箱配置可以写到yaml文件
-    sender = "zhangmingli@hatech.com.cn"
-    psw = "Test123"  # QQ邮箱授权码
+    sender = "123456"
+    psw = "123456"  # QQ邮箱授权码
     smtp_server = "smtp.exmail.qq.com"
     port = 465
     receiver = ["zhangmingli@hatech.com.cn"]  # 单个收件人 list
